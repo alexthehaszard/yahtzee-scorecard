@@ -26,7 +26,7 @@ export const Chance = () => {
   };
 
   return (
-    <div className="border_bottom">
+    <div>
       <ManualInputRow
         value={chance.value[0].count}
         title={chance.value[0].title}

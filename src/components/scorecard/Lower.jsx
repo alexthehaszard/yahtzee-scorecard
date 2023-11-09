@@ -31,6 +31,9 @@ export const LowerHalf = () => {
       <OfAKinds></OfAKinds>
       <BinaryInputCollection></BinaryInputCollection>
       <Chance></Chance>
+      <div className="add_margin"></div>
+      <div className="border_bottom"></div>
+      <div className="add_margin"></div>
       <YahtzeeBonus></YahtzeeBonus>
       <div className="row">
         <h3>Total Lower</h3>

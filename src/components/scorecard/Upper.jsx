@@ -48,7 +48,7 @@ export const UpperHalf = (props) => {
 
   return (
     <div className="upper">
-      <div className="border_bottom">
+      <div>
         {counters.value.map((m, i) => {
           return (
             <CounterRow
@@ -63,7 +63,8 @@ export const UpperHalf = (props) => {
           );
         })}
       </div>
-      <div className="row">
+      <div className="add_margin"></div>
+      <div className="row border_top">
         <h3>Bonus</h3>
         <p>{bonus.value}</p>
       </div>
@@ -71,6 +72,7 @@ export const UpperHalf = (props) => {
         <h3>Total Upper</h3>
         <p>{totalUpper}</p>
       </div>
+      <div className="add_margin"></div>
     </div>
   );
 };
