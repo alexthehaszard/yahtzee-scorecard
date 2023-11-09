@@ -21,6 +21,7 @@ export const YahtzeeBonus = () => {
       return m;
     });
   };
+
   return counters.value.map((m) => {
     return (
       <div className="row" key={m.count}>

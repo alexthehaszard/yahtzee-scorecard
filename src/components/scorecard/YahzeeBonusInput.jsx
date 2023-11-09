@@ -10,14 +10,11 @@ export const YahtzeeBonusInput = (props) => {
             onClick={() => props.toggle(i)}
             key={i}
           >
-            {m ? (
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Antu_dialog-ok-apply.svg"
-                alt="✔️"
-              />
-            ) : (
-              " "
-            )}
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Antu_dialog-ok-apply.svg"
+              alt="✔️"
+              style={{ display: m ? "initial" : "none" }}
+            />
           </button>
         );
       })}
