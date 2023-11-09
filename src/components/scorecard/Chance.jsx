@@ -1,5 +1,6 @@
 import { ManualInputRow } from "./ManualInputRow";
 import { signal, computed } from "@preact/signals-react";
+import React from "react";
 
 const chance = signal([{ count: 0, title: "Chance", zapped: false }]);
 export const totalChance = computed(() => {

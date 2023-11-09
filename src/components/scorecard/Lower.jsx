@@ -6,6 +6,7 @@ import {
 } from "./BinaryInputCollection";
 import { Chance, totalChance, hasFinishedChance } from "./Chance";
 import { computed } from "@preact/signals-react";
+import React from "react";
 
 export const totalLower = computed(() => {
   return totalBinaryInputs.value + totalChance.value + totalOfAKinds.value;

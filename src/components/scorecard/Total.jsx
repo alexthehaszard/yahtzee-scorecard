@@ -1,6 +1,7 @@
 import { totalUpper, hasFinishedUpper } from "./Upper";
 import { totalLower, hasFinishedLower } from "./Lower";
 import { computed } from "@preact/signals-react";
+import React from "react";
 
 const total = computed(() => {
   return totalUpper.value + totalLower.value;

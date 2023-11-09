@@ -1,5 +1,6 @@
 import { signal, computed } from "@preact/signals-react";
 import { ManualInputRow } from "./ManualInputRow";
+import React from "react";
 
 const ofAKinds = signal([
   { count: 0, title: "3 of a Kind", zapped: false },

@@ -1,4 +1,4 @@
-.main {
+.app {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -95,4 +95,15 @@
 
 .border_bottom {
   border-bottom: 2px solid white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+}
+
+.main a {
+  color: white;
 }

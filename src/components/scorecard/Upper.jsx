@@ -1,5 +1,6 @@
 import { CounterRow } from "./CounterRow";
 import { signal, computed } from "@preact/signals-react";
+import React from "react";
 
 const counters = signal([
   { count: 0, title: "Aces", zapped: false },

@@ -1,5 +1,6 @@
 import { signal, computed } from "@preact/signals-react";
 import { BinaryInputRow } from "./BinaryInputRow";
+import React from "react";
 
 const counters = signal([
   { count: 0, title: "Full House", zapped: false, points: 25 },
