@@ -15,6 +15,9 @@ export const totalBinaryInputs = computed(() => {
 export const hasFinishedBinaryInputs = computed(() => {
   return counters.value.filter((m) => !(m.zapped || m.count > 0)).length === 0;
 });
+export const zappedYahtzee = computed(() => {
+  return counters.value.filter((m) => m.points === 50).map((m) => m.zapped)[0];
+});
 
 export const BinaryInputCollection = () => {
   const toggleZap = (index) => {

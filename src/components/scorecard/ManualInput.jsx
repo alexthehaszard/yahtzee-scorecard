@@ -7,7 +7,7 @@ export const ManualInput = (props) => {
         type="number"
         onChange={(event) => props.oninput(event.target.value)}
         placeholder="0"
-        inputmode="numeric"
+        inputMode="numeric"
       />
     </div>
   );
