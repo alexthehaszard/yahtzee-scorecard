@@ -5,6 +5,7 @@ import { App } from "./App";
 import { Header } from "./components/Header";
 import { Main } from "./Main";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Guide } from "./Guide";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/play",
     element: <App></App>,
+  },
+  {
+    path: "/guide",
+    element: <Guide></Guide>,
   },
 ]);
 

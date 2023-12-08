@@ -15,6 +15,7 @@ export const Main = () => {
         </a>{" "}
         pdf file. To play Yahtzee, all you need is 5 dice!
       </p>
+      <a href="/guide">Scorecard Guide</a>
       <a href="/play">
         <h1>Play Yahtzee!</h1>
       </a>
