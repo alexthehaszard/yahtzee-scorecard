@@ -4,7 +4,7 @@ import React from "react";
 
 const counters = signal([
   { count: 0, title: "Full House", zapped: false, points: 25 },
-  { count: 0, title: "Small Straight", zapped: false, points: 30 },
+  { count: 0, title: "Short Straight", zapped: false, points: 30 },
   { count: 0, title: "Long Straight", zapped: false, points: 40 },
   { count: 0, title: "Yahtzee", zapped: false, points: 50 },
 ]);
