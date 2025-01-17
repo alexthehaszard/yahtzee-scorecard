@@ -13,7 +13,11 @@ export const BinaryInputRow = (props) => {
       >
         {props.title}
       </h3>
-      <BinaryInput value={props.value} onclick={props.onclick}></BinaryInput>
+      <BinaryInput
+        value={props.value}
+        placeholder={props.placeholder}
+        onclick={props.onclick}
+      ></BinaryInput>
     </div>
   );
 };

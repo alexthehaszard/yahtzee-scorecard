@@ -6,11 +6,12 @@ export const BinaryInput = (props) => {
       <button
         style={{
           background: props.value === 0 ? "rgba(0,0,0,0)" : "white",
-          color: props.value === 0 ? "white" : "black",
+          color: props.value === 0 ? "rgba(150,150,150)" : "black",
         }}
         onClick={props.onclick}
+        aria-pressed={!!props.value}
       >
-        {props.value}
+        {props.value ? props.value : props.placeholder}
       </button>
     </div>
   );

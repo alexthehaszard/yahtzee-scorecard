@@ -46,6 +46,7 @@ export const BinaryInputCollection = () => {
             value={m.count}
             title={m.title}
             onclick={() => onInputs(i)}
+            placeholder={m.points}
             isZapped={m.zapped}
             setZapped={() => toggleZap(i)}
             key={m.title}
