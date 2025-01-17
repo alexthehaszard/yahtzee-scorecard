@@ -14,7 +14,14 @@ export const Total = () => {
   return (
     <div className="row">
       <h3>Grand Total</h3>
-      <p style={{ color: hasFinished.value ? "green" : "white" }}>{total}</p>
+      <p
+        style={{
+          textDecoration: hasFinished.value ? "underline" : "none",
+          fontWeight: hasFinished.value ? "bold" : "normal",
+        }}
+      >
+        {total}
+      </p>
     </div>
   );
 };
